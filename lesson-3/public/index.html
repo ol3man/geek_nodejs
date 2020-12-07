@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Y-translate</title>
+    <style>
+		.wrapper {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.row {
+			display: flex;
+			justify-content: center;
+		}
+
+		.col {
+			width: 250px;
+			padding: 10px 20px;
+		}
+
+		.col label {
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		.col input {
+			height: 60px;
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Y-переводчик</h1>
+    <div class="row">
+        <div class="col">
+            <label for="textIn">Для перевода:</label>
+            <div class="">
+                <input type="text" id="textIn">
+                <button id="btnTranslate">Перевести</button>
+            </div>
+        </div>
+        <div class="col">
+            <label for="textOut">Перевод:</label>
+            <div class="">
+                <input type="text" id="textOut">
+            </div>
+        </div>
+    </div>
+    <script src="client.js"></script>
+</div>
+</body>
+</html>
