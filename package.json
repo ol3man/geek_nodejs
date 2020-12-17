@@ -4,7 +4,8 @@
   "description": "",
   "main": "lesson-1/hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node lesson-5/app.js",
+    "start": "node lesson-5/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,17 +22,31 @@
     "ansi": "^0.3.1",
     "axios": "^0.21.0",
     "beeper": "^2.0.0",
+    "body-parser": "^1.19.0",
     "bootstrap": "^5.0.0-beta1",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.3",
     "consolidate": "^0.16.0",
     "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.8.0",
     "handlebars": "^4.7.6",
+    "method-override": "^3.0.0",
     "minimist": "^1.2.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "node-mysql": "^0.4.2",
     "nodemailer": "^6.4.16",
+    "path": "^0.12.7",
     "redis": "^3.0.2",
     "request": "^2.88.2",
     "rss-parser": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
